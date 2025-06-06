@@ -5,16 +5,16 @@ public class AdvancePattern {
     public static void main(String[] args){
 
         // Q1) Butterfly pattern
-//        *       *
-//        **     **
-//        ***   ***
-//        **** ****
-//        *********
-//        *********
-//        **** ****
-//        ***   ***
-//        **     **
-//        *       *
+//        *        *
+//        **      **
+//        ***    ***
+//        ****  ****
+//        **********
+//        **********
+//        ****  ****
+//        ***    ***
+//        **      **
+//        *        *
         Scanner sc= new Scanner(System.in);
         System.out.println(" Enter the number of stars that you want to print:");
         int n=sc.nextInt();
