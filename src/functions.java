@@ -1,6 +1,8 @@
 //Syntax
-//return type functionName(type arg1,type arg2 ,..){
-//    //
+//return type functionName( arg1,type arg2 ,..){
+
+          // do something
+// }
 import java.util.*;
 public class functions {
 
