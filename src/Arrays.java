@@ -73,10 +73,10 @@ public class Arrays {
         // output
         for(int i=0;i<numbers.length;i++){
             if (numbers[i]==x){
-                System.out.println(" x is found at index :"+ i);
+                System.out.println(" x is found at index :"+i);
+            }
             }
 
-        }
 
 
     }
