@@ -33,11 +33,11 @@ public class Arrays {
 //        Scanner sc= new Scanner(System.in);
 //        System.out.println("Enter the size of an Array :");
 //        int size= sc.nextInt();
-//        System.out.println("Enter the numbers :");
-//
+
+//        defining the array
 //        int number[]= new int[size];
 //
-//
+//        System.out.println("Enter the numbers :");
 //        // input from user
 //        for(int i=0;i<size;i++){
 //            number[i]= sc.nextInt();

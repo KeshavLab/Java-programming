@@ -20,12 +20,12 @@ import java.util.*;
 public class whileLoop {
     public static void main(String[] args){
 
-//        int i=0;
-//        while (i<10){
-//           System.out.println("keshav");
+        int i=0;
+        while (i<10){
+           System.out.println("keshav");
 //            System.out.println(i);
-//            i=i+1;//increment
-//        }
+            i=i+1;//increment
+        }
 //        int i=0;
 //        do {
 //            System.out.println("keshav");
@@ -47,12 +47,12 @@ public class whileLoop {
 //        System.out.println("The sum is:"+sum);
 
 //        Q2) Print the table of a number input by the user
-        Scanner sc= new Scanner(System.in);
-        System.out.println("Enter the number do you want to table:");
-        int n= sc.nextInt();
-
-        for(int i=1;i<=10;i++){
-            System.out.println(n +"x" + i +"="+(n*i));
-        }
+//        Scanner sc= new Scanner(System.in);
+//        System.out.println("Enter the number do you want to table:");
+//        int n= sc.nextInt();
+//
+//        for(int i=1;i<=10;i++){
+//            System.out.println(n +"x" + i +"="+(n*i));
+//        }
     }
 }
