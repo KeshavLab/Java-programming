@@ -34,7 +34,7 @@ public class AdvancePattern {
 //                System.out.print(" ");
 //            }
 //
-//            // spaces
+//            // stars
 //            for(int  j=1;j<=i;j++){
 //                System.out.print("*");
 //            }
