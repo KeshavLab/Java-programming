@@ -210,17 +210,58 @@ public class practice {
 
         // Avg of two numbers;
 
-        System.out.println("Enter the  first number :");
-        int a= sc.nextInt();
+//        System.out.println("Enter the  first number :");
+//        int a= sc.nextInt();
+//
+//        System.out.println("Enter the second number :");
+//        int b= sc.nextInt();
+//
+//        System.out.println("Enter the third number :");
+//        int c= sc.nextInt();
+//
+//        double avarage =calculateAvg(a,b,c);
+//        System.out.println("The Avarage is :"+avarage);
 
-        System.out.println("Enter the second number :");
-        int b= sc.nextInt();
+//        System.out.println("Enter the number :");
+//        int num =sc.nextInt();
+//
+//        boolean isPrime=true;
+//
+//
+//        if(num>1){
+//            for (int i=2;i<num;i++){
+//                if(num%i==0){
+//                    isPrime=false;
+//                    break;
+//                }
+//             }
+//            if(isPrime){
+//                System.out.println("it is prime number");
+//            }
+//            else{
+//                System.out.println("it is not prime number");
+//            }
+//
+//            }
+//        else {
+//            System.out.println("Please enter the valid number :");
+//        }
 
-        System.out.println("Enter the third number :");
-        int c= sc.nextInt();
+        // swapping the two variables (not use temp function)
 
-        double avarage =calculateAvg(a,b,c);
-        System.out.println("The Avarage is :"+avarage);
+        int a=10;
+        int b=20;
+
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        System.out.println(a);
+        System.out.println(b);
+
+
+
+
+
 
     }
 
