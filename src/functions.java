@@ -7,25 +7,25 @@ import java.util.*;
 public class functions {
 
     //define function
-//    public static void printMyname(String name){
-//        System.out.println(name);
-//        return;
-//    }
+    public static void printMyname(String name){
+        System.out.println(name);
+        return;
+    }
 
     // addition of two numbers function
-//    public static int calculateSum(int a,int b){
-//        int sum=a + b;
-//        System.out.println(sum);
-//        return sum;
-//    }
+    public static int calculateSum(int a,int b){
+        int sum=a + b;
+        System.out.println(sum);
+        return sum;
+    }
 
     //multiply of 2 numbers products
-//    public static int productOfNumbers(int a,int b){
-//        int product=a*b;
-//        System.out.println("the product is :"+product);
-//        return product;
-//
-//    }
+    public static int productOfNumbers(int a,int b){
+        int product=a*b;
+        System.out.println("the product is :"+product);
+        return product;
+
+    }
 
     // function for Factorial of number
 
