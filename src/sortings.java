@@ -21,8 +21,11 @@ public class sortings {
 //
 //        //bubble sort
 //        for(int i=0; i< arr.length-1;i++){
+
+        // elements ko compare karane ke liye
 //            for(int j=0; j< arr.length-i-1;j++){
-//                // condition check
+//                // If the left element is greater, we swap it with the right element.
+                  // This makes the larger values "bubble" to the right.
 //                if(arr[j]>arr[j+1]){
 //
 //                    //swap
