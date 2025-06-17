@@ -23,34 +23,61 @@ public class logicBuilding {
 //        }
 
         // check if the number is armstrong or not
-        System.out.println("Enter a number :");
-        int num= sc.nextInt();
-        //ham num ko original me store karenge koki hame last me compare karana hai
-        int original =num;
-        //hame num to string me convert karan hai kuyki hame pata karana hai ki num me kitane digits hai
-        int digits = String.valueOf(num).length();
+//        System.out.println("Enter a number :");
+//        int num= sc.nextInt();
+//        //ham num ko original me store karenge koki hame last me compare karana hai
+//        int original =num;
+//        //hame num to string me convert karan hai kuyki hame pata karana hai ki num me kitane digits hai
+//        int digits = String.valueOf(num).length();
+//
+//        //sum ko initially ham 0 declare karenge
+//        int sum=0;
+//        //ham 1 while loop chalayenge
+//        while (num != 0){
+//            int digit= num % 10; // This line gets the last digit of the number. ex (153 % 10 = 3)
+//            sum+=Math.pow(digit,digits); //ex- (Math.pow(3, 3) = 3 * 3 * 3 = 27  ,sum += 27)
+//
+//            //This line removes the last digit from the number by dividing it by 10.
+//            // Example:
+//            //If num = 153, then:
+//            //153 / 10 = 15
+//            num/=10;
+//
+//        }
+//        if (sum==original){
+//            System.out.println("it is an armstrong number");
+//        }
+//        else{
+//            System.out.println("It is not armstrong number");
+//        }
 
-        //sum ko initially ham 0 declare karenge
-        int sum=0;
-        //ham 1 while loop chalayenge
-        while (num != 0){
-            int digit= num % 10; // This line gets the last digit of the number. ex (153 % 10 = 3)
-            sum+=Math.pow(digit,digits); //ex- (Math.pow(3, 3) = 3 * 3 * 3 = 27  ,sum += 27)
+        // Q3) check if the given number is paridrome or not
+//        A Palindrome Number is a number that reads the same backward as forward.
+//                Examples:
+//        121 → Palindrome ✔️
+//        123 → Not a Palindrome ❌
+//        1331 → Palindrome ✔️
+//        12321 → Palindrome ✔️
 
-            //This line removes the last digit from the number by dividing it by 10.
-            // Example:
-            //If num = 153, then:
-            //153 / 10 = 15
-            num/=10;
+        System.out.println("Enter the number :");
+        int num = sc.nextInt();
 
+        int original=num;
+
+        int reversed=0;
+
+        while (num !=0){
+            int digit= num % 10; //to find the last digit in number
+            reversed=reversed * 10 +digit;
+            num /= 10;
         }
-        if (sum==original){
-            System.out.println("it is an armstrong number");
+
+        if (reversed==original){
+            System.out.println(original+" It is palidrome  number ");
         }
         else{
-            System.out.println("It is not armstrong number");
+            System.out.println(original+"It is not a palidrome number");
         }
-
 
 
 
