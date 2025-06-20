@@ -1,4 +1,7 @@
-
+// types of constructor
+//1) Non-parameterized constructor
+// 2) parameterized constructor
+// 3) copy constructor/
 
 class Mobile{
     String name;
