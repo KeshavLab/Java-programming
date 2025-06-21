@@ -2,8 +2,15 @@
 import java.util.*;
 public class practice {
 
+//    public static void printArray(int arr[]){
+//        for(int i=0;i<arr.length;i++){
+//            System.out.print(arr[i]+" ");
+//        }
+//        System.out.println();
+//    }
+
     public static void printArray(int arr[]){
-        for(int i=0;i<arr.length;i++){
+        for (int i=0;i<arr.length;i++){
             System.out.print(arr[i]+" ");
         }
         System.out.println();
@@ -288,23 +295,43 @@ public class practice {
         // selection sort
 
         // defining the array
-        int arr[]={7,8,3,1,2};
+//        int arr[]={7,8,3,1,2};
+//
+//        for(int i=0;i<arr.length-1;i++){
+//
+//            //assume the smallest element i
+//            int smallest=i;
+//            for(int j=i+1;j< arr.length;j++){
+//
+//                if(arr[smallest]>arr[j]){
+//                    smallest=j;
+//                }
+//            }
+//            //swap
+//            int temp=arr[smallest];
+//            arr[smallest]=arr[i];
+//            arr[i]=temp;
+//
+//        }
+//        printArray(arr);
 
-        for(int i=0;i<arr.length-1;i++){
+        // bubble sort
+        // defining the array
+        int arr[]={7,3,8,6,1};
 
-            //assume the smallest element i
-            int smallest=i;
-            for(int j=i+1;j< arr.length;j++){
+        //bubble sort
+        for (int i=0;i<arr.length-1;i++){
 
-                if(arr[smallest]>arr[j]){
-                    smallest=j;
+            //compare two elements
+            for (int j=0;j<arr.length-i-1;j++){
+                if(arr[j] > arr[j+1]){
+
+                    // swap
+                    int temp=arr[j];
+                    arr[j]=arr[j+1];
+                    arr[j+1]=temp;
                 }
             }
-            //swap
-            int temp=arr[smallest];
-            arr[smallest]=arr[i];
-            arr[i]=temp;
-
         }
         printArray(arr);
 
