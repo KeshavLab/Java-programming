@@ -317,21 +317,43 @@ public class practice {
 
         // bubble sort
         // defining the array
-        int arr[]={7,3,8,6,1};
+//        int arr[]={7,3,8,6,1};
+//
+//        //bubble sort
+//        for (int i=0;i<arr.length-1;i++){
+//
+//            //compare two elements
+//            for (int j=0;j<arr.length-i-1;j++){
+//                if(arr[j] > arr[j+1]){
+//
+//                    // swap
+//                    int temp=arr[j];
+//                    arr[j]=arr[j+1];
+//                    arr[j+1]=temp;
+//                }
+//            }
+//        }
+//        printArray(arr);
 
-        //bubble sort
+
+        // selection sort
+
+        int arr[] = {7,8,5,46,3,9};
+
         for (int i=0;i<arr.length-1;i++){
+            int smallest=i;
 
-            //compare two elements
-            for (int j=0;j<arr.length-i-1;j++){
-                if(arr[j] > arr[j+1]){
-
-                    // swap
-                    int temp=arr[j];
-                    arr[j]=arr[j+1];
-                    arr[j+1]=temp;
+            for (int j=i+1;j< arr.length;j++){
+                if (arr[smallest]>arr[j]){
+                    smallest=j;
                 }
             }
+            //swap
+            int temp=arr[smallest];
+            arr[smallest]=arr[i];
+            arr[i]=temp;
+
+
         }
         printArray(arr);
 
