@@ -210,7 +210,7 @@ public class practice {
 //            System.out.println();
 //        }
 
-        Scanner sc= new Scanner(System.in);
+//        Scanner sc= new Scanner(System.in);
 
 //        System.out.println("Enter first number :");
 //        int a= sc.nextInt();
@@ -338,24 +338,42 @@ public class practice {
 
         // selection sort
 
-        int arr[] = {7,8,5,46,3,9};
+//        int arr[] = {7,8,5,46,3,9};
+//
+//        for (int i=0;i<arr.length-1;i++){
+//            int smallest=i;
+//
+//            for (int j=i+1;j< arr.length;j++){
+//                if (arr[smallest]>arr[j]){
+//                    smallest=j;
+//                }
+//            }
+//            //swap
+//            int temp=arr[smallest];
+//            arr[smallest]=arr[i];
+//            arr[i]=temp;
+//
+//
+//        }
+//        printArray(arr);
 
-        for (int i=0;i<arr.length-1;i++){
-            int smallest=i;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the size of an array");
+        int size= sc.nextInt();
 
-            for (int j=i+1;j< arr.length;j++){
-                if (arr[smallest]>arr[j]){
-                    smallest=j;
-                }
-            }
-            //swap
-            int temp=arr[smallest];
-            arr[smallest]=arr[i];
-            arr[i]=temp;
+        int number[]= new int[size];
 
-
+        //inserting the element
+        System.out.println("Enter the array elements");
+        for(int i=0;i<size;i++){
+            number[i]=sc.nextInt();
         }
-        printArray(arr);
+
+        //printing the arry elements
+        System.out.println("The array is :");
+        for (int i=0;i<size;i++){
+            System.out.print(number[i]+" ");
+        }
 
 
 
