@@ -35,3 +35,8 @@ public class overriding {
         d.sound(); // dog barks
     }
 }
+
+//| Type             | Description                        |
+//| ---------------- | ---------------------------------- |
+//| **Compile-time** | Also called **Method Overloading** |
+//| **Run-time**     | Also called **Method Overriding**  |

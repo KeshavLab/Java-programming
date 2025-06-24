@@ -24,6 +24,8 @@
 
 //3. ✅ Makes code flexible
 //It allows a method to handle different types of data easily.
+
+
 class Calculator{
 
     public void add(int a,int b){
@@ -48,3 +50,8 @@ public class overloading {
 
     }
 }
+
+//| Type             | Description                        |
+//| ---------------- | ---------------------------------- |
+//| **Compile-time** | Also called **Method Overloading** |
+//| **Run-time**     | Also called **Method Overriding**  |
