@@ -11,6 +11,22 @@
 //| `size()`                            | Returns number of elements                            |
 //| `iterator()`                        | Returns an iterator for looping                       |
 //| `toArray()`                         | Converts collection to array                          |
-
+import java.util.*;
 public class arrayList {
+    public static void main(String[] args){
+        Collection<String> names = new ArrayList<>();
+
+        names.add("Java");
+        names.add("Python");
+        names.add("C++");
+
+        System.out.println("Size: " + names.size());             // 3
+        System.out.println("Contains Python? " + names.contains("Python"));  // true
+
+        names.remove("C++");
+        System.out.println("After removing: " + names);         // [Java, Python]
+
+        names.clear();
+        System.out.println("Is empty? " + names.isEmpty());     // true
+    }
 }
