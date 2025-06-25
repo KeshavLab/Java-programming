@@ -15,6 +15,7 @@ import java.util.*;
 public class arrayList {
     public static void main(String[] args){
         Collection<String> names = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<>();
 
         names.add("Java");
         names.add("Python");
@@ -28,5 +29,24 @@ public class arrayList {
 
         names.clear();
         System.out.println("Is empty? " + names.isEmpty());     // true
+
+
+        // add element
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        System.out.println(list);
+
+        // Get element
+        int element =list.get(0);
+        System.out.println(element);
+
+        // add element in between
+        list.add(1,6);
+        System.out.println(list);
+
+        // set element
+        list.set(0,5);
+        System.out.println(list);
     }
 }
