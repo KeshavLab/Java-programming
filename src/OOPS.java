@@ -5,7 +5,6 @@
 //      }
 
 
-import javax.xml.namespace.QName;
 
 //class is  a bluprint or template
 class Pen{
